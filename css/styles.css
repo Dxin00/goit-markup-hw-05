@@ -486,14 +486,7 @@ img {
 }
 
 
-/* .footer-heading p {
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-} */
+
 .footer-text {
     width: 264px;
     line-height: 1.5;
@@ -544,7 +537,7 @@ img {
     width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: #ffffff;
     font-weight: 500;
     margin-bottom: 16px;
 }
