@@ -616,7 +616,7 @@ img {
     transition: opacity 0.3s ease; 
     transition: var(--animation);
     transition-property: opacity, visibility; 
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .backdrop.is-open {
