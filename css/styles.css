@@ -481,8 +481,19 @@ img {
     display: inline-block;
     margin-bottom: 16px;
     margin-right: 0;
+    line-height: 1.5;
+
 }
 
+
+.footer-heading P {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
 .footer-text {
     width: 264px;
     line-height: 1.5;
@@ -518,7 +529,9 @@ img {
 }
 
 .footer-social-link .social-link:hover,
-.footer-social-link .social-link:focus {
+.footer-social-link .social-link:focus,
+.subscribe-btn:hover,
+.subscribe-btn:focus {
     background-color: var(--green);
 }
 
@@ -578,6 +591,7 @@ img {
     justify-content: center;
     min-width: 165px;
     padding: 8px 24px;
+    
 }
 
 .subscribe-icon {
@@ -602,6 +616,7 @@ img {
     transition: opacity 0.3s ease; 
     transition: var(--animation);
     transition-property: opacity, visibility; 
+    visibility: hidden;
 }
 
 .backdrop.is-open {
